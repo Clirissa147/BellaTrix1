@@ -1,0 +1,53 @@
+body{
+	background-color: black;
+}
+
+video{
+	width: 100%;
+}
+
+#container{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: darkred;
+	border-radius: 20px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+#container{
+	 box-shadow: 5px 5px 5px 5px #FFFFFF;
+}
+
+#container:hover{
+	width: 300px;
+	background-color: grey;
+	box-shadow: 5px 5px 5px 5px darkred;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 20px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+
+p{
+	font-family: christie;
+	font-size: 40px;
+}
+
+
+button{
+	font-family: bangle;
+	font-size: 30px;
+	background-color: black;
+	color: white;
+}
+
+button:hover{
+	background-color: darkred;
+}
